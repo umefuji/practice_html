@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header id="header" class="wrapper">
+    <h1 class="site-title"><a id="logo-link" href="index.html"><img id="header-logo" src="img/logo.png"
+          alt="Profile"></a></h1>
+    <nav>
+      <ul id="page-link">
+        <li><a href="#about">About</a></li>
+        <li><a href="#animals">Animals</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="mainvisual">
+      <img src="/img/mainvisual.jpg">
+    </section>
+
+    <section id="subvisual">
+      <ul class="slider">
+        <li class="slider-item slider-item01"></li>
+        <li class="slider-item slider-item02"></li>
+        <li class="slider-item slider-item03"></li>
+        <li class="slider-item slider-item04"></li>
+        <li class="slider-item slider-item05"></li>
+      </ul>
+    </section>
+
+
+
+
+
+
+    <section id="about" class="wrapper">
+      <h2>About</h2>
+      <div class="about-content">
+        <div class="image-container">
+          <img src="img/about.jpg" alt="Animal Freak">
+        </div>
+        <div class="text-container">
+          <h3>Animal Freak</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section id="animals" class="wrapper">
+      <h2>Animals</h2>
+
+      <div class="animal-grid">
+        <div class="animal-card">
+          <ul class="info-list">
+            <li><a href="#info-1" class="info">
+                <img src="/img/animal1.jpg">
+              </a></li>
+          </ul>
+          <section id="info-1" class="hide-area">
+            <div class="modal">
+              <h3>Rabbit</h3>
+              <div class="modal-img">
+                <img src="/img/animal1.jpg">
+              </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+          </section>
+          <h3>Rabbit</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+
+        <div class="animal-card">
+          <ul class="info-list">
+            <li><a href="#info-2" class="info">
+                <img src="/img/animal2.jpg">
+              </a></li>
+          </ul>
+          <section id="info-2" class="hide-area">
+            <div class="modal">
+              <h3>Elephant</h3>
+              <div class="modal-img">
+                <img src="/img/animal2.jpg">
+              </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+          </section>
+
+          <h3>Elephant</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+
+
+        <div class="animal-card">
+          <ul class="info-list">
+            <li><a href="#info-3" class="info">
+                <img src="/img/animal3.jpg">
+              </a></li>
+          </ul>
+          <section id="info-3" class="hide-area">
+            <div class="modal">
+              <h3>Squirrel</h3>
+              <div class="modal-img">
+                <img src="/img/animal3.jpg">
+              </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+          </section>
+
+          <h3>Squirrel</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="contact" class="wrapper">
+      <h2>Contact</h2>
+      <div class="Form">
+        <div class="Form-Item">
+          <p class="Form-Item-Label">name</p>
+          <input type="text" class="Form-Item-Input" placeholder="name">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label">tel</p>
+          <input type="text" class="Form-Item-Input" placeholder="000-0000-0000">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label">mail</p>
+          <input type="email" class="Form-Item-Input" placeholder="example@gmail.com">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label isMsg">Message</p>
+          <textarea class="Form-Item-Textarea"></textarea>
+        </div>
+        <input type="submit" class="Form-Btn" value="send">
+      </div>
+    </section>
+
+
+
+    <p id="page-top"><a href="#">Page Top</a></p>
+  </main>
+  <footer id="footer">
+    <p>&copy; 2023 About Animals</p>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
